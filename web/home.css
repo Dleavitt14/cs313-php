@@ -24,7 +24,7 @@ nav ul {
     nav ul li a:visited {
       color: darkslategray; }
     nav ul li a:active {
-      color: darkslategray; }
+      color: blue; }
 
 h1, p {
   text-align: center; }
