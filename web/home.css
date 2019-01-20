@@ -19,7 +19,12 @@ nav ul {
     font-size: .75em;
     font-style: normal; }
     nav ul li a:hover {
-      font-weight: bold; }
+      font-weight: bold;
+      color: darkslategray; }
+    nav ul li a:visited {
+      color: darkslategray; }
+    nav ul li a:active {
+      color: darkslategray; }
 
 h1, p {
   text-align: center; }

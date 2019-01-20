@@ -29,6 +29,15 @@ nav {
 
             a:hover {
                 font-weight: bold;
+                color: $body-color;
+            }
+
+            a:visited {
+                color: $body-color;
+            }
+
+            a:active {
+                color: $body-color;
             }
         }
     }
