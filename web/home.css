@@ -1,0 +1,20 @@
+body {
+  max-width: 70%;
+  background-color: darkslategray; }
+
+header, footer {
+  background-color: black; }
+
+nav {
+  color: darkslategray; }
+  nav ul {
+    display: flex;
+    flex-flow: row; }
+    nav ul li {
+      list-style-type: none;
+      padding-right: 5em; }
+
+h1, p, img {
+  margin: auto; }
+
+/*# sourceMappingURL=home.css.map */
