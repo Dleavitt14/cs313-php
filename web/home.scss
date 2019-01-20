@@ -9,7 +9,6 @@ body {
 
 header, footer{
     background-color:$top-bottom-color;
-    height: 10em;
     color: $body-color;
     font-size: 3em;
 }
@@ -26,7 +25,7 @@ nav {
             list-style-type: none;
             padding-right: 5em;
             color: $body-color;
-            font-size: 1.5em;
+            font-size: 1.25em;
         }
     }
 }
@@ -36,7 +35,7 @@ h1, p {
 }
 
 img {
-    align-content: center;
+    margin: auto;
     width: 60%;
 }
 
