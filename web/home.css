@@ -1,9 +1,12 @@
 body {
   max-width: 70%;
-  background-color: darkslategray; }
+  background-color: darkslategray;
+  margin: auto; }
 
 header, footer {
-  background-color: black; }
+  background-color: black;
+  height: 10em;
+  color: darkslategray; }
 
 nav ul {
   display: flex;
@@ -14,6 +17,6 @@ nav ul {
     color: darkslategray; }
 
 h1, p, img {
-  margin: auto; }
+  text-align: center; }
 
 /*# sourceMappingURL=home.css.map */

@@ -4,10 +4,13 @@ $body-color: darkslategray;
 body {
     max-width: 70%;
     background-color: $body-color;
+    margin: auto;
 }
 
 header, footer{
     background-color:$top-bottom-color;
+    height: 10em;
+    color: $body-color;
 }
 
 nav {
@@ -26,6 +29,6 @@ nav {
 }
 
 h1, p, img {
-    margin: auto;
+    text-align: center;
 }
 
