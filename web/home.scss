@@ -11,6 +11,7 @@ header, footer{
     background-color:$top-bottom-color;
     height: 10em;
     color: $body-color;
+    font-size: 3em;
 }
 
 nav {
@@ -24,11 +25,20 @@ nav {
             list-style-type: none;
             padding-right: 5em;
             color: $body-color;
+            font-size: 3em;
         }
     }
 }
 
-h1, p, img {
+h1, p {
     text-align: center;
+}
+
+img {
+    align-content: center;
+}
+
+.copyright, nav {
+    padding: 2em;
 }
 

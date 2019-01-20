@@ -6,7 +6,8 @@ body {
 header, footer {
   background-color: black;
   height: 10em;
-  color: darkslategray; }
+  color: darkslategray;
+  font-size: 3em; }
 
 nav ul {
   display: flex;
@@ -14,9 +15,16 @@ nav ul {
   nav ul li {
     list-style-type: none;
     padding-right: 5em;
-    color: darkslategray; }
+    color: darkslategray;
+    font-size: 3em; }
 
-h1, p, img {
+h1, p {
   text-align: center; }
+
+img {
+  align-content: center; }
+
+.copyright, nav {
+  padding: 2em; }
 
 /*# sourceMappingURL=home.css.map */
