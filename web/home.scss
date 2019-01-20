@@ -19,13 +19,12 @@ nav {
         display: flex;
         flex-flow: row;
         padding: 2em;
-
+        justify-content: space-around;
 
         li {
             list-style-type: none;
-            padding-right: 5em;
             color: $body-color;
-            font-size: 1em;
+            font-size: .5em;
         }
     }
 }

@@ -11,12 +11,12 @@ header, footer {
 nav ul {
   display: flex;
   flex-flow: row;
-  padding: 2em; }
+  padding: 2em;
+  justify-content: space-around; }
   nav ul li {
     list-style-type: none;
-    padding-right: 5em;
     color: darkslategray;
-    font-size: 1em; }
+    font-size: .5em; }
 
 h1, p {
   text-align: center; }
