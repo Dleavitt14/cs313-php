@@ -1,4 +1,4 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8" />
@@ -19,7 +19,7 @@
         <img src="horsePhoto.jpg" alt="Horse Jumping">
     </main>
     <footer>
-        <p>&copy Derek Leavitt 2018</p>
+        <p class="copyright">&copy Derek Leavitt 2018</p>
     </footer>
 </body>
 </html>

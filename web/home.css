@@ -11,20 +11,22 @@ header, footer {
 
 nav ul {
   display: flex;
-  flex-flow: row; }
+  flex-flow: row;
+  padding: 2em; }
   nav ul li {
     list-style-type: none;
     padding-right: 5em;
     color: darkslategray;
-    font-size: 3em; }
+    font-size: 1.5em; }
 
 h1, p {
   text-align: center; }
 
 img {
-  align-content: center; }
+  align-content: center;
+  width: 60%; }
 
-.copyright, nav {
+.copyright {
   padding: 2em; }
 
 /*# sourceMappingURL=home.css.map */

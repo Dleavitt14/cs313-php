@@ -19,13 +19,14 @@ nav {
     ul {
         display: flex;
         flex-flow: row;
+        padding: 2em;
 
 
         li {
             list-style-type: none;
             padding-right: 5em;
             color: $body-color;
-            font-size: 3em;
+            font-size: 1.5em;
         }
     }
 }
@@ -36,9 +37,10 @@ h1, p {
 
 img {
     align-content: center;
+    width: 60%;
 }
 
-.copyright, nav {
+.copyright {
     padding: 2em;
 }
 
