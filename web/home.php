@@ -19,7 +19,9 @@
         <img src="horsePhoto.jpg" alt="Horse Jumping">
     </main>
     <footer>
-        <p class="copyright">&copy Derek Leavitt 2018</p>
+        <?php
+            include 'footer.php';
+        ?>
     </footer>
 </body>
 </html>

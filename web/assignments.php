@@ -9,6 +9,18 @@
     
 </head>
 <body>
+    <header>
+        <?php
+            include 'header.php';
+        ?>
+    </header>
+    <main>
     <h1>Coming Soon!</h1>
+    </main>
+    <footer>
+        <?php
+            include 'footer.php';
+        ?>
+    </footer>
 </body>
 </html>
