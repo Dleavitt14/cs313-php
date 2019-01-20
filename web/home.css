@@ -16,7 +16,7 @@ nav ul {
   nav ul li {
     list-style-type: none;
     color: darkslategray;
-    font-size: .5em;
+    font-size: .75em;
     font-style: normal; }
     nav ul li a:hover {
       font-weight: bold; }
