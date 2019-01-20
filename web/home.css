@@ -5,14 +5,13 @@ body {
 header, footer {
   background-color: black; }
 
-nav {
-  color: darkslategray; }
-  nav ul {
-    display: flex;
-    flex-flow: row; }
-    nav ul li {
-      list-style-type: none;
-      padding-right: 5em; }
+nav ul {
+  display: flex;
+  flex-flow: row; }
+  nav ul li {
+    list-style-type: none;
+    padding-right: 5em;
+    color: darkslategray; }
 
 h1, p, img {
   margin: auto; }
