@@ -6,7 +6,7 @@ body {
 header, footer {
   background-color: black;
   color: darkslategray;
-  font-size: 3em; }
+  font-size: 1.5em; }
 
 nav ul {
   display: flex;
@@ -16,7 +16,10 @@ nav ul {
   nav ul li {
     list-style-type: none;
     color: darkslategray;
-    font-size: .5em; }
+    font-size: .5em;
+    font-style: normal; }
+    nav ul li a:hover {
+      font-weight: bold; }
 
 h1, p {
   text-align: center; }

@@ -10,7 +10,7 @@ body {
 header, footer{
     background-color:$top-bottom-color;
     color: $body-color;
-    font-size: 3em;
+    font-size: 1.5em;
 }
 
 nav {
@@ -25,6 +25,11 @@ nav {
             list-style-type: none;
             color: $body-color;
             font-size: .5em;
+            font-style: normal;
+
+            a:hover {
+                font-weight: bold;
+            }
         }
     }
 }
