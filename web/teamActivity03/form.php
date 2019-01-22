@@ -39,6 +39,9 @@
         <input name="continent[]" type="checkbox" value="africa"> Africa
         <br>
         <input name="continent[]" type="checkbox" value="antarctica"> Antarctica
+        <br>
+
+        <input type="submit">
     </form>
     
 </body>
