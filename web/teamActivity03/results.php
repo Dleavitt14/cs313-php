@@ -15,9 +15,7 @@
         Major: <?php echo $_POST["major"]; ?>
         <br>
         Comments: 
-        <br>
         <p><?php echo $_POST["comments"]; ?></p>
-        <br>
         Continents Visited:
         <br>
         <?php

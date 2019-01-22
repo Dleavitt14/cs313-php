@@ -26,19 +26,19 @@
         <br>
         Continents Visited:
         <br>
-        <input name="continent[]" type="checkbox" value="north america"> North America
+        <input name="continent[]" type="checkbox" value="North America"> North America
         <br>
-        <input name="continent[]" type="checkbox" value="south america"> South America
+        <input name="continent[]" type="checkbox" value="South America"> South America
         <br>
-        <input name="continent[]" type="checkbox" value="europe"> Europe
+        <input name="continent[]" type="checkbox" value="Europe"> Europe
         <br>
-        <input name="continent[]" type="checkbox" value="asia"> Asia
+        <input name="continent[]" type="checkbox" value="Asia"> Asia
         <br>
-        <input name="continent[]" type="checkbox" value="australia"> Australia
+        <input name="continent[]" type="checkbox" value="Australia"> Australia
         <br>
-        <input name="continent[]" type="checkbox" value="africa"> Africa
+        <input name="continent[]" type="checkbox" value="Africa"> Africa
         <br>
-        <input name="continent[]" type="checkbox" value="antarctica"> Antarctica
+        <input name="continent[]" type="checkbox" value="Antarctica"> Antarctica
         <br>
 
         <input type="submit">
