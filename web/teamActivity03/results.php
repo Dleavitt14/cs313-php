@@ -8,25 +8,25 @@
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
 </head>
 <body>
-        Name: <?php echo $_POST["name"] ?>
+        Name: <?php echo $_POST["name"]; ?>
         <br>
-        Email: <a href="mailto:<?php echo $_POST["email"] ?>"><?php echo $_POST["email"] ?></a>
+        Email: <a href="mailto:<?php echo $_POST["email"]; ?>"><?php echo $_POST["email"]; ?></a>
         <br>
-        Major: <?php echo $_POST["major"] ?>
+        Major: <?php echo $_POST["major"]; ?>
         <br>
         Comments: 
         <br>
-        <p><?php echo $_POST["comments"] ?></p>
+        <p><?php echo $_POST["comments"]; ?></p>
         <br>
         Continents Visited:
         <br>
         <?php
             if(empty($_POST["continent"])) {
-                echo "none<br>"
+                echo "none<br>";
             }
             else {
                 foreach($_POST["continent"] as $continent) {
-                    echo $continent . "<br>"
+                    echo $continent . "<br>";
                 }
             }
         ?>    
