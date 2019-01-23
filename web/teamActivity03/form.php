@@ -1,3 +1,11 @@
+<?php
+    $majors = array(
+        "cs" => "Computer Science",
+        "cit" => "Computer Information Technology",
+        "wdd" => "Web Design and Development",
+        "ce" => "Computer Engineering"
+    );
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -15,10 +23,11 @@
         <br>
         Major: 
         <ul>
-            <li>CS:<input name="major" type="radio" value="CS"></li>
-            <li>CIT:<input name="major" type="radio" value="CIT"></li>
-            <li>WDD:<input name="major" type="radio" value="WDD"></li>
-            <li>CE:<input name="major" type="radio" value="CE"></li>
+            <?php
+                foreach ($majors as $code => $long) {
+                    echo '<li><input name="major" type="radio" value="'.$code.'">'.$long.'</li>';
+                }
+            ?>
         </ul>
         Comments: 
         <br>
