@@ -17,8 +17,9 @@ h1 {
   padding-bottom: 2em; }
 
 #view-cart {
-  display: block;
-  text-align: right; }
+  position: absolute;
+  top: 5px;
+  right: 5px; }
 
 section {
   display: flex;
