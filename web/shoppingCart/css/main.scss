@@ -31,7 +31,6 @@ section {
     display: flex;
     flex-flow: column;
     justify-content: center;
-    width: 30%;
     padding: 1em;
     border: #39ff14 solid;
     border-radius: 10px;
@@ -44,5 +43,5 @@ footer p {
 
 img {
     transform: rotate(90deg);
-    width: 80%;
+    width: 100%;
 }
