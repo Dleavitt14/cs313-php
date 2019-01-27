@@ -1,0 +1,33 @@
+body {
+  max-width: 80%;
+  background-color: black; }
+
+header, footer {
+  background-color: grey;
+  height: 3em; }
+
+h1 {
+  display: block;
+  margin: auto; }
+
+#view-cart {
+  display: block;
+  text-align: right; }
+
+section {
+  display: flex;
+  flex-flow: row wrap; }
+
+.item {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  width: 30%;
+  padding: 1em;
+  border: #39ff14 solid;
+  border-radius: 10px; }
+
+footer p {
+  text-align: center; }
+
+/*# sourceMappingURL=main.css.map */
