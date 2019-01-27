@@ -23,13 +23,13 @@ section {
   padding: 1em;
   border: #39ff14 solid;
   border-radius: 10px;
-  color: white; }
+  color: white;
+  align-content: center; }
 
 footer p {
   text-align: center; }
 
 img {
-  width: 100%;
-  padding: .5em; }
+  width: 100%; }
 
 /*# sourceMappingURL=main.css.map */

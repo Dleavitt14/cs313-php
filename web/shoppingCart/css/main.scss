@@ -28,14 +28,12 @@ section {
 }
 
 .item {
-    //display: flex;
-    //flex-flow: column;
     width: 22%;
-    //justify-content: center;
     padding: 1em;
     border: #39ff14 solid;
     border-radius: 10px;
     color: white;
+    align-content: center;
 }
 
 footer p {
@@ -43,7 +41,5 @@ footer p {
 }
 
 img {
-    //transform: rotate(90deg);
     width: 100%;
-    padding: .5em;
 }
