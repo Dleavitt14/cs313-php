@@ -15,7 +15,7 @@ main {
     background-color: $primary-color;
 }
 
-p, h1, h2 {
+p, h1 {
     margin: 0;
 }
 
@@ -23,10 +23,6 @@ h1 {
     text-align: center;
     padding-top: 2em;
     padding-bottom: 2em;
-}
-
-h2 {
-    color: white;
 }
 
 #view-cart {
@@ -38,6 +34,8 @@ section {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
 
 .item {

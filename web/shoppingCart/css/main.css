@@ -8,16 +8,13 @@ header, footer {
 main {
   background-color: black; }
 
-p, h1, h2 {
+p, h1 {
   margin: 0; }
 
 h1 {
   text-align: center;
   padding-top: 2em;
   padding-bottom: 2em; }
-
-h2 {
-  color: white; }
 
 #view-cart {
   display: block;
@@ -26,7 +23,9 @@ h2 {
 section {
   display: flex;
   flex-flow: row wrap;
-  justify-content: center; }
+  justify-content: center;
+  padding-top: 1em;
+  padding-bottom: 1em; }
 
 .item {
   width: 22%;
