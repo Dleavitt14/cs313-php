@@ -25,12 +25,14 @@ section {
   width: 30%;
   padding: 1em;
   border: #39ff14 solid;
-  border-radius: 10px; }
+  border-radius: 10px;
+  color: white; }
 
 footer p {
   text-align: center; }
 
 img {
-  transform: rotate(90deg); }
+  transform: rotate(90deg);
+  width: 80%; }
 
 /*# sourceMappingURL=main.css.map */
