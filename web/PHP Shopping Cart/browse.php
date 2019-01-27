@@ -49,7 +49,7 @@
         </section>
     </main>
     <footer>
-        <p>&copy</p>
+        <p>&copy Derek Leavitt 2018</p>
     </footer>
 </body>
 </html>
