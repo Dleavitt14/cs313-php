@@ -45,6 +45,8 @@ img {
   width: 100%; }
 
 button {
-  background-color: red; }
+  background-color: red;
+  border-color: red;
+  color: white; }
 
 /*# sourceMappingURL=main.css.map */

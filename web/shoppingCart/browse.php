@@ -18,37 +18,37 @@
                 <img src="images/blue-pen.jpg" alt="blue pen">
                 <h3>Blue Pen</h3>
                 <h4>$100</h4>
-                <button type="button">ADD</button>
+                <button type="button">Add Product</button>
             </div>
             <div class="item">
                 <img src="images/multi-colored-pens.jpg" alt="multi colored pens">
                 <h3>Multi Colored Pens</h3>
                 <h4>$400</h4>
-                <button type="button">ADD</button>
+                <button type="button">Add Product</button>
             </div>
             <div class="item">
                 <img src="images/orange-highlighter.jpg" alt="orange highlighter">
                 <h3>Orange Highlighter</h3>
                 <h4>$150</h4>
-                <button type="button">ADD</button>
+                <button type="button">Add Product</button>
             </div>
             <div class="item">
                 <img src="images/red-pen.jpg" alt="red pen">
                 <h3>Red Pen</h3>
                 <h4>$100</h4>
-                <button type="button">ADD</button>
+                <button type="button">Add Product</button>
             </div>
             <div class="item">
                 <img src="images/sharpies.jpg" alt="sharpies">
                 <h3>Sharpies</h3>
                 <h4>$500</h4>
-                <button type="button">ADD</button>
+                <button type="button">Add Product</button>
             </div>
             <div class="item">
                 <img src="images/zebra-pen.jpg" alt="zebra pen">
                 <h3>Zebra Pen</h3>
                 <h4>$125</h4>
-                <button type="button">ADD</button>
+                <button type="button">Add Product</button>
             </div>
         </section>
     </main>
