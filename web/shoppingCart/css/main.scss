@@ -5,6 +5,7 @@ $accent-color: #39ff14;
 body {
     max-width: 80%;
     background-color: $primary-color;
+    margin: auto;
 }
 
 header, footer {
@@ -25,7 +26,7 @@ h1 {
 section {
     display: flex;
     flex-flow: row wrap;
-    margin: auto;
+    justify-content: center;
 }
 
 .item {

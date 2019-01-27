@@ -1,6 +1,7 @@
 body {
   max-width: 80%;
-  background-color: black; }
+  background-color: black;
+  margin: auto; }
 
 header, footer {
   background-color: grey;
@@ -17,7 +18,7 @@ h1 {
 section {
   display: flex;
   flex-flow: row wrap;
-  margin: auto; }
+  justify-content: center; }
 
 .item {
   width: 22%;
