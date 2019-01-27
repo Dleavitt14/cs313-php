@@ -13,7 +13,6 @@
         <p id="view-cart"><a href="cart.php">View Cart</a></p>
     </header>
     <main>
-        <h2>Items For Sale</h2>
         <section>
             <div class="item">
                 <img src="images/blue-pen.jpg" alt="blue pen">
