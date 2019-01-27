@@ -1,15 +1,17 @@
 body {
   max-width: 80%;
-  background-color: black;
   margin: auto; }
 
 header, footer {
-  background-color: grey;
-  height: 3em; }
+  background-color: grey; }
+
+main {
+  background-color: black; }
 
 h1 {
-  display: block;
-  margin: auto; }
+  text-align: center;
+  padding-top: 2em;
+  padding-bottom: 2em; }
 
 #view-cart {
   display: block;
@@ -29,7 +31,9 @@ section {
   margin: 1em; }
 
 footer p {
-  text-align: center; }
+  text-align: center;
+  padding-top: 2em;
+  padding-bottom: 2em; }
 
 img {
   width: 100%; }

@@ -4,18 +4,21 @@ $accent-color: #39ff14;
 
 body {
     max-width: 80%;
-    background-color: $primary-color;
     margin: auto;
 }
 
 header, footer {
     background-color: $secondary-color;
-    height: 3em;
+}
+
+main {
+    background-color: $primary-color;
 }
 
 h1 {
-    display: block;
-    margin: auto;
+    text-align: center;
+    padding-top: 2em;
+    padding-bottom: 2em;
 }
 
 #view-cart {
@@ -40,6 +43,8 @@ section {
 
 footer p {
     text-align: center;
+    padding-top: 2em;
+    padding-bottom: 2em;
 }
 
 img {
