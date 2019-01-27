@@ -30,4 +30,7 @@ section {
 footer p {
   text-align: center; }
 
+img {
+  transform: rotate(45deg); }
+
 /*# sourceMappingURL=main.css.map */
