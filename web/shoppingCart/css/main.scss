@@ -25,6 +25,7 @@ h1 {
 section {
     display: flex;
     flex-flow: row wrap;
+    margin: auto;
 }
 
 .item {
@@ -33,7 +34,7 @@ section {
     border: #39ff14 solid;
     border-radius: 10px;
     color: white;
-    align-content: center;
+    margin: 1em;
 }
 
 footer p {
