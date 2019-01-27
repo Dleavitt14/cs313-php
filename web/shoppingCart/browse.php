@@ -45,7 +45,6 @@
                 <h3>Zebra Pen</h3>
                 <h4>$125</h4>
             </div>
-            <img src="images/zebra-pen.jpg" alt="zebra pen">
         </section>
     </main>
     <footer>

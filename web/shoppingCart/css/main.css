@@ -19,10 +19,7 @@ section {
   flex-flow: row wrap; }
 
 .item {
-  display: flex;
-  flex-flow: column;
   width: 22%;
-  justify-content: center;
   padding: 1em;
   border: #39ff14 solid;
   border-radius: 10px;
