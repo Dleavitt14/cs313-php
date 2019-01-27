@@ -25,6 +25,10 @@ h1 {
     padding-bottom: 2em;
 }
 
+h2 {
+    color: white;
+}
+
 #view-cart {
     display: block;
     text-align: right;
@@ -34,7 +38,6 @@ section {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    color: white;
 }
 
 .item {
@@ -42,7 +45,7 @@ section {
     padding: 1em;
     border: #39ff14 solid;
     border-radius: 10px;
-    //color: white;
+    color: white;
     margin: 1em;
 }
 
