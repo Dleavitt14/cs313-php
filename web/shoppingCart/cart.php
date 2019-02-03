@@ -24,7 +24,7 @@ session_start();
             echo "<h2>$100</h2>";
             echo "<form>".
             '<input type="text" name="remove" hidden value="blue-pen">'.
-            '<input type="submit" value"Remove Product">'.
+            '<input type="submit" value="Remove Product">'.
             "</form>";
         }
         elseif ($product[$i]=="multi-colored-pens") {
