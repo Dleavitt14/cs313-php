@@ -10,18 +10,23 @@ session_start();
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Cart</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
 </head>
 <body>
     <?php
 
-    foreach ($_SESSION['products'] as $product) {
-        echo "<h2>$product<p>";
+    $product = $_SESSION['products'];
 
-        if ($product=="blue-pen") {
+    for ($i=0; $i < count($product); $i++) {
+        echo "<h2>".$product[$i]."<p>";
+
+        if ($product[$i]=="blue-pen") {
             echo "<h2>$100</h2>";
+            echo "<form>".
+            '<input type="submit" name="remove" value"Remove Product">'.
+            
         }
-        elseif ($product=="multi-colored-pens") {
+        elseif ($product[$i]=="multi-colored-pens") {
             echo "<h2>$400</h2>";
         }
         else {
