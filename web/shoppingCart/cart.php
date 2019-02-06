@@ -20,27 +20,35 @@ if (isset($_POST['remove'])) {
 <header>
     <h1>The Pen Shop</h1>
 </header>
-<main>
+<main id="cart-page">
     <?php
     if (isset($_SESSION['products'])) {
         $product = $_SESSION['products'];
 
         for ($i=0; $i < count($product); $i++) {
             echo "<h2>".$product[$i]."<p>";
+            echo "<form action='#' method='POST'>".
+                '<input type="text" name="remove" hidden value="blue-pen">'.
+                '<input type="submit" value="Remove All Product">'.
+                "</form>";
 
             if ($product[$i]=="Blue Pen") {
                 echo "<h2>$100</h2>";
-                echo "<form action='#' method='POST'>".
-                '<input type="text" name="remove" hidden value="blue-pen">'.
-                '<input type="submit" value="Remove Product">'.
-                "</form>";
             }
             elseif ($product[$i]=="Multi-Colored Pens") {
                 echo "<h2>$400</h2>";
-                echo "<form action='#' method='POST'>".
-                '<input type="text" name="remove" hidden value="multicolor pen">'.
-                '<input type="submit" value="Remove Product">'.
-                "</form>";
+            }
+            elseif ($product[$i]=="Orange Highlighter") {
+                echo "<h2>$150</h2>";
+            }
+            elseif ($product[$i]=="Red Pen") {
+                echo "<h2>$100</h2>";
+            }
+            elseif ($product[$i]=="Sharpies") {
+                echo "<h2>$500</h2>";
+            }
+            elseif ($product[$i]=="Zebra Pen") {
+                echo "<h2>$125</h2>";
             }
             else {
                 echo "It didn't work";
@@ -49,7 +57,7 @@ if (isset($_POST['remove'])) {
         }
     }
     else {
-        echo "";
+        echo "<h2>There are no items in your cart</h2>";
     }
     ?>
     </main>
