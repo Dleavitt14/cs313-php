@@ -9,7 +9,8 @@ main {
   background-color: black; }
 
 .cart-page {
-  color: white; }
+  color: white;
+  margin: 5em; }
 
 p, h1 {
   margin: 0; }
