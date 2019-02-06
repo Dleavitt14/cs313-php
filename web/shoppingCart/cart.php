@@ -33,7 +33,7 @@ if (isset($_POST['remove'])) {
             echo '<h2 class="cart-page">'.$product[$i]."</h2>";
 
             if ($product[$i]=="Blue Pen") {
-                echo '<h2 class="cart-page">$100</h2>';
+                echo "<h2 class='cart-page'>$100</h2>";
             }
             elseif ($product[$i]=="Multi-Colored Pens") {
                 echo '<h2 class="cart-page">$400</h2>';
@@ -51,7 +51,7 @@ if (isset($_POST['remove'])) {
                 echo '<h2 class="cart-page">$125</h2>';
             }
             else {
-                echo '<h2 class="cart-page">It didnt work</h2>';
+                echo "<h2 class='cart-page'>It didnt work</h2>";
             }
 
         }
