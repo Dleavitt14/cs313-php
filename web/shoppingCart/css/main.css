@@ -7,10 +7,9 @@ header, footer {
 
 main {
   background-color: black; }
-
-.cart-page {
-  color: white;
-  margin: 5em; }
+  main h2 {
+    color: white;
+    margin: 5em; }
 
 p, h1 {
   margin: 0; }
