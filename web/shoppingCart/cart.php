@@ -2,6 +2,10 @@
 
 session_start();
 
+if (isset($_POST['remove'])) {
+    array_slice($_SESSION['products'], $_POST['remove']);
+}
+
 ?>
 <!DOCTYPE html>
 <html>
@@ -22,13 +26,17 @@ session_start();
 
         if ($product[$i]=="blue-pen") {
             echo "<h2>$100</h2>";
-            echo "<form>".
+            echo "<form action='#' method='POST'>".
             '<input type="text" name="remove" hidden value="blue-pen">'.
             '<input type="submit" value="Remove Product">'.
             "</form>";
         }
         elseif ($product[$i]=="multi-colored-pens") {
             echo "<h2>$400</h2>";
+            echo "<form action='#' method='POST'>".
+            '<input type="text" name="remove" hidden value="multicolor pen">'.
+            '<input type="submit" value="Remove Product">'.
+            "</form>";
         }
         else {
             echo "It didn't work";

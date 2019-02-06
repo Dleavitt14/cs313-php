@@ -33,7 +33,7 @@
                 <h3>Blue Pen</h3>
                 <h4>$100</h4>
                 <form action="#" method="POST">
-                    <input type="text" hidden name="item" value="blue-pen">
+                    <input type="text" hidden name="item" value="Blue Pen">
                     <input type="submit" value="ADD PRODUCT">
                 </form>
             </div>
@@ -42,7 +42,7 @@
                 <h3>Multi Colored Pens</h3>
                 <h4>$400</h4>
                 <form action="#" method="POST">
-                    <input type="text" hidden name="item" value="multi-colored-pens">
+                    <input type="text" hidden name="item" value="Multi-Colored Pens">
                     <input type="submit" value="ADD PRODUCT">
                 </form>
             </div>
@@ -50,25 +50,37 @@
                 <img src="images/orange-highlighter.jpg" alt="orange highlighter">
                 <h3>Orange Highlighter</h3>
                 <h4>$150</h4>
-                <button type="button" name="orange-high-lighter">Add Product</button>
+                <form action="#" method="POST">
+                    <input type="text" hidden name="item" value="Orange Highlighter">
+                    <input type="submit" value="ADD PRODUCT">
+                </form>
             </div>
             <div class="item">
                 <img src="images/red-pen.jpg" alt="red pen">
                 <h3>Red Pen</h3>
                 <h4>$100</h4>
-                <button type="button" name="red-pen">Add Product</button>
+                <form action="#" method="POST">
+                    <input type="text" hidden name="item" value="Red Pen">
+                    <input type="submit" value="ADD PRODUCT">
+                </form>
             </div>
             <div class="item">
                 <img src="images/sharpies.jpg" alt="sharpies">
                 <h3>Sharpies</h3>
                 <h4>$500</h4>
-                <button type="button" name="sharpies">Add Product</button>
+                <form action="#" method="POST">
+                    <input type="text" hidden name="item" value="Sharpies">
+                    <input type="submit" value="ADD PRODUCT">
+                </form>
             </div>
             <div class="item">
                 <img src="images/zebra-pen.jpg" alt="zebra pen">
                 <h3>Zebra Pen</h3>
                 <h4>$125</h4>
-                <button type="button" name="sharpies">Add Product</button>
+                <form action="#" method="POST">
+                    <input type="text" hidden name="item" value="Zebra Pen">
+                    <input type="submit" value="ADD PRODUCT">
+                </form>
             </div>
         </section>
     </main>
