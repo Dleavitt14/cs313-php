@@ -4,7 +4,11 @@ session_start();
 
 if (isset($_POST['remove'])) {
     array_slice($_SESSION['products'], $_POST['remove']);
+
+    echo "there";
 }
+
+echo "here";
 
 ?>
 <!DOCTYPE html>
