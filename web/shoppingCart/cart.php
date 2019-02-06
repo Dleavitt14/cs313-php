@@ -24,14 +24,14 @@ if (isset($_POST['remove'])) {
     for ($i=0; $i < count($product); $i++) {
         echo "<h2>".$product[$i]."<p>";
 
-        if ($product[$i]=="blue-pen") {
+        if ($product[$i]=="Blue Pen") {
             echo "<h2>$100</h2>";
             echo "<form action='#' method='POST'>".
             '<input type="text" name="remove" hidden value="blue-pen">'.
             '<input type="submit" value="Remove Product">'.
             "</form>";
         }
-        elseif ($product[$i]=="multi-colored-pens") {
+        elseif ($product[$i]=="Multi-Colored Pens") {
             echo "<h2>$400</h2>";
             echo "<form action='#' method='POST'>".
             '<input type="text" name="remove" hidden value="multicolor pen">'.
