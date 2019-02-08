@@ -1,3 +1,17 @@
+<?php
+
+require 'connect.php';
+
+if isset($_GET['query']) {
+    $book = $_GET['query'];
+    $stmt = $db->prepare('SELECT * FROM scriptures WHERE book=:book');
+    $stmt->bindValue(':book', $book, PDO::PARAM_STR);
+    $stmt->execute();
+    $rows = $stmt->fetchAll(PDO::FETCH_ASSOC);
+}
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,9 +21,21 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="results.php" method="GET">
+    <form action="#" method="GET">
         <input type="text" name="query">
         <input type="submit">
     </form>
+
+    <?php
+
+        foreach($rows as $row) {
+            echo $row['book'];
+            echo $row['chapter'];
+            echo $row['verse'];
+            echo $row['content'];
+        }
+
+    ?>
+
 </body>
 </html>
