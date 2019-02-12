@@ -13,7 +13,7 @@
     //     $stmt->bindValue(':id', $group, PDO::PARAM_INT);
     //     $stmt->execute();
     //     $group_name = $stmt->fetchAll(PDO::FETCH_ASSOC);
-    // }
+        }
 
 ?>
 
