@@ -24,7 +24,7 @@
     <header>
     </header>
     <main>
-        <h1>Events For Group <?php echo $rows["group_name"]; ?></h1>
+        <h1>Events For Group</h1>
 
         <?php
 
