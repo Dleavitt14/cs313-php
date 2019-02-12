@@ -46,7 +46,7 @@
                 $semester = $event["semester_in_school"];
                 $photo = $event["photo"];
 
-                echo '<h2><strong>Name:</strong> ' . $fName . ' ' . $lName'</h2>';
+                echo '<h2><strong>Name:</strong> ' . $fName . ' ' . $lName . '</h2>';
                 
                 if ($gLeader) {
                     echo '<p>Group Leader</p>';
