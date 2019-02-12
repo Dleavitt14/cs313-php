@@ -4,7 +4,7 @@
 
     if (isset($_GET['group_number'])) {
         $group = $_GET['group_number'];
-        $stmt = $db->prepare('SELECT * FROM events WHERE id=:id');
+        $stmt = $db->prepare('SELECT * FROM events WHERE group_id=:id');
         $stmt->bindValue(':id', $group, PDO::PARAM_INT);
         $stmt->execute();
         $rows = $stmt->fetchAll(PDO::FETCH_ASSOC);
