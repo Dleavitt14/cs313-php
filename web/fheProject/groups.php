@@ -19,14 +19,19 @@
         <h1>FHE Groups</h1>
         <?php
 
-            foreach($db->query('SELECT group_name, ward, stake FROM groups') as $row) {
+            foreach($db->query('SELECT id, group_name, ward, stake FROM groups') as $row) {
                 $name = $row["group_name"];
                 $ward = $row["ward"];
                 $stake = $row["stake"];
+                $id = $row["id"];
 
                 echo '<h2>' . $name . '</h2>' . 
                         '<p>' . $ward . ' Ward</p>' . 
-                        '<p>' . $stake . 'Stake</p>';
+                        '<p>' . $stake . ' Stake</p>' . 
+                        '<form action="users.php" method="GET">' . 
+                        '<input type="text" name="group_number" value="' . $id . '" hidden>' . 
+                        '<input type="submit" value="See Users">' . 
+                        '</form>';
             }
 
         ?>
