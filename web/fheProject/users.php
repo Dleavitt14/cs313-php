@@ -9,11 +9,11 @@
         $stmt->execute();
         $rows = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
-        $stmt = $db->prepare('SELECT group_name FROM groups WHERE group_id=:id');
-        $stmt->bindValue(':id', $group, PDO::PARAM_INT);
-        $stmt->execute();
-        $group_name = $stmt->fetchAll(PDO::FETCH_ASSOC);
-    }
+    //     $stmt = $db->prepare('SELECT group_name FROM groups WHERE group_id=:id');
+    //     $stmt->bindValue(':id', $group, PDO::PARAM_INT);
+    //     $stmt->execute();
+    //     $group_name = $stmt->fetchAll(PDO::FETCH_ASSOC);
+    // }
 
 ?>
 
@@ -29,7 +29,11 @@
     <header>
     </header>
     <main>
-        <h1>Users For Group <?php echo $group_name; ?></h1>
+        <h1>Users For Group </h1>
+
+        <?php 
+        // echo $group_name; 
+        ?>
 
         <?php
 
