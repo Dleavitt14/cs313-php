@@ -32,13 +32,10 @@
             $name = $course['name'];
             $course_code = $course['course_code'];
 
-            echo "<li>$course_code - $name</li>";
+            echo "<li><a href='notes.php?course_id=$id'>$course_code - $name</a></li>";
         }
 
     ?>
-        <li>CS ee - text</li>
-        <li> sjkdhsav</li>
-        <li>xkjcssah</li>
     </ul>
 </body>
 </html>
