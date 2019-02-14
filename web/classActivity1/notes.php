@@ -1,6 +1,6 @@
 <?php
 
-    require_once("dbconnect.php");
+    require_once("dbConnect.php");
     $db = get_db();
 
     $course_id = $_GET['course_id'];
@@ -21,8 +21,6 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Notes for dhfbuywdfuy</h1>
-
     <?php
 
         $course_name = $course['name'];
