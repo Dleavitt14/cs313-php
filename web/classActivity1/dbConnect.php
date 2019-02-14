@@ -1,6 +1,7 @@
 <?php
 
 function get_db() {
+    $db = null;
     try
         {
             $dbUrl = getenv('DATABASE_URL');
