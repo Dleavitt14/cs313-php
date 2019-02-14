@@ -3,7 +3,7 @@
     require_once("dbconnect.php");
     $db = get_db();
 
-    $course_id = $GET['course_id'];
+    $course_id = $_GET['course_id'];
     $query = 'SELECT id, name, course_code FROM course WHERE id=:id';
     $statement = $db->prepare($query);
     $statement->bindValue(':id', $course_id, PDO::PARAM_INT);
@@ -25,8 +25,16 @@
 
     <?php
 
+        $course_name = $course['name'];
         echo "<h1>Notes for" . $course['course_name'] . "-" . $course['course_code'] . "</h1>";
 
     ?>
+
+    <form action="insert_note.php" method="post">
+        <input type="date" name="date"><br>
+        <input type="hidden" name="course_id" value="<?php echo $course_id; ?>"><br>
+        <textarea name="content"></textarea><br>
+        <input type="submit" value='Insert Note'><br>
+    </form>
 </body>
 </html>
