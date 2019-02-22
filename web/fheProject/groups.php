@@ -17,6 +17,8 @@
     </header>
     <main>
         <h1>FHE Groups</h1>
+        <p class="add"><a href="add_user.php">Add New User</a></p>
+        <p class="add"><a href="add_event.php">Add New Event</a></p>
         <?php
 
             foreach($db->query('SELECT id, group_name, ward, stake FROM groups') as $row) {
