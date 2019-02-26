@@ -25,7 +25,7 @@
     </header>
     <main>
         <h1>Users For Group </h1>
-        <p class="homeLink">Home</p>
+        <p class="homeLink"><a href="groups.php">Home</a></p>
 
         <?php
 
