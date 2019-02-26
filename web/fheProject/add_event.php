@@ -18,28 +18,35 @@
         <p class="homeLink"><a href="groups.php">Home</a></p>
     </header>
     <main>
-        <form action="dbAdd.php" method="POST">
-            FHE Group Name:
-            <select name="gId">
-                <?php
-                    foreach ($groups as $group) { 
-                        
-                        echo '<option value=' . $group['id'] . ">" . $group['group_name'] . "</option>";
-                    }
-                ?>
-            </select><br>
-            Activity Name:
-            <input type="text" name="aName"><br>
-            Activity Description:
-            <textarea type="text" name="aDescription"></textarea><br>
-            Prayer:
-            <input type="text" name="prayer"><br>
-            Thought:
-            <input type="text" name="thought"><br>
-            Treat:
-            <input type="text" name="treat"><br>
-            <input type="submit" value="Add Event">
-        </form>
+        <div class="addNew">
+            <div class="add1">
+                <form action="dbAdd.php" method="POST">
+                    FHE Group Name:
+                    <select name="gId">
+                        <?php
+                            foreach ($groups as $group) { 
+                                
+                                echo '<option value=' . $group['id'] . ">" . $group['group_name'] . "</option>";
+                            }
+                        ?>
+                    </select><br><br>
+                    Activity Name:
+                    <input type="text" name="aName"><br><br>
+                    Activity Description:<br>
+                    <textarea type="text" name="aDescription"></textarea><br><br>
+                    Prayer:
+                    <input type="text" name="prayer"><br><br>
+                    Thought:
+                    <input type="text" name="thought"><br><br>
+                    Treat:
+                    <input type="text" name="treat"><br><br>
+                    <input type="submit" value="Add Event">
+                </form>
+            </div>
+            <div class="add1">
+                <img src="images/appointment.png" alt="appointment">
+            </div>
+        </div>
     </main>
     <footer>
         <p>&copy Derek Leavitt 2019</p>

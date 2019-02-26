@@ -18,8 +18,8 @@
         <p class="homeLink"><a href="groups.php">Home</a></p>
     </header>
     <main>  
-        <div class="user">
-        <div class="add">
+        <div class="addNew">
+        <div class="add1">
             <h2>Fill out User Information</h2>
             <form action="dbAdd.php" method="POST">
                 First Name:
@@ -58,7 +58,7 @@
                 <input class="button" type="submit" value="Add User">
             </form>
         </div>
-        <div>
+        <div class="add1">
             <img src="images/user.png" alt="userIcon">
         </div>
         </div>

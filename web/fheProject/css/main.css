@@ -31,15 +31,15 @@ footer {
     color: white;
     padding: 3em; }
 
-.user {
+.addNew {
   display: flex;
   flex-flow: row;
   justify-content: space-between; }
 
-.add, .user div {
+.add1 {
   padding: 2em;
   width: 45%; }
-  .add br, .user div br {
+  .add1 br {
     padding-bottom: 1em; }
 
 /*# sourceMappingURL=main.css.map */
