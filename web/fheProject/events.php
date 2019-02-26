@@ -43,7 +43,7 @@
                         '<p><strong>Prayer:</strong> ' . $prayer . '</p>' . 
                         '<p><strong>Thought:</strong> ' . $thought . '</p>' . 
                         '<p><strong>Treat:</strong> ' . $treat . '</p>'.
-                        '<div>';
+                        '</div>';
             }
 
         ?>
