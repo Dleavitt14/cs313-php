@@ -23,10 +23,10 @@ header {
   color: white; }
 
 footer {
-  background-color: grey;
-  height: 15em; }
+  background-color: grey; }
   footer p {
     text-align: center;
-    color: white; }
+    color: white;
+    padding: 3em; }
 
 /*# sourceMappingURL=main.css.map */
