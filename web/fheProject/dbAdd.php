@@ -39,6 +39,19 @@
         $prayer = $_POST['prayer'];
         $thought = $_POST['thought'];
         $treat = $_POST['treat'];
+        $gId = $_POST['gId'];
+
+        $stmt = $db->prepare('INSERT INTO users VALUES (default, :group_id, :prayer, :thought, :treat, :activity_name, :activity_description');
+        $stmt->bindValue(':group_id', $gId, PDO::PARAM_INT);
+        $stmt->bindValue(':prayer', $gId, PDO::PARAM_INT);
+        $stmt->bindValue(':thought', $thought, PDO::PARAM_STR);
+        $stmt->bindValue(':treat', $treat, PDO::PARAM_STR);
+        $stmt->bindValue(':activity_name', $aName, PDO::PARAM_STR);
+        $stmt->bindValue(':activity_description', $aDescription, PDO::PARAM_STR);
+        $stmt->bindValue(':group_leader', $gLeader, PDO::PARAM_STR);
+        $stmt->execute();
+
+        header("Location: groups.php");
     }
     else {
         echo 'There is an Error :(';

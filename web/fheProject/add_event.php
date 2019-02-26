@@ -1,5 +1,7 @@
 <?php
     require 'dbConnect.php';
+
+    $groups = $db->query('SELECT * FROM groups;');
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -15,6 +17,15 @@
     <main>
         <h1>Add a New Event</h1>
         <form action="dbAdd.php" method="POST">
+            FHE Group Name:
+            <select name="gId">
+                <?php
+                    foreach ($groups as $group) { 
+                        
+                        echo '<option value=' . $group['id'] . ">" . $group['group_name'] . "</option>";
+                    }
+                ?>
+            </select>
             Activity Name:
             <input type="text" name="aName"><br>
             Activity Description:
