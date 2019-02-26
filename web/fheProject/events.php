@@ -27,6 +27,7 @@
         <p class="homeLink"><a href="groups.php">Home</a></p>
     </header>
     <main>
+        <div class="allGroups">
         <?php
 
             foreach($rows as $event) {
@@ -36,14 +37,17 @@
                 $name = $event["activity_name"];
                 $description = $event["activity_description"];
 
-                echo '<h2>' . $name . '</h2>' . 
+                echo    '<div class="group">'.
+                        '<h2>' . $name . '</h2>' . 
                         '<p>' . $description . '</p>' . 
                         '<p><strong>Prayer:</strong> ' . $prayer . '</p>' . 
                         '<p><strong>Thought:</strong> ' . $thought . '</p>' . 
-                        '<p><strong>Treat:</strong> ' . $treat . '</p>';
+                        '<p><strong>Treat:</strong> ' . $treat . '</p>'.
+                        '<div>';
             }
 
         ?>
+        </div>
     </main>
     <footer>
         <p>&copy Derek Leavitt 2019</p>

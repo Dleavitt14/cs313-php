@@ -27,6 +27,7 @@
         <p class="homeLink"><a href="groups.php">Home</a></p>
     </header>
     <main>
+        <div class="allGroups">
         <?php
 
             foreach($rows as $event) {
@@ -42,7 +43,8 @@
                 $semester = $event["semester_in_school"];
                 $photo = $event["photo"];
 
-                echo '<h2><strong>Name:</strong> ' . $fName . ' ' . $lName . '</h2>';
+                echo    '<div class="group">'.
+                        '<h2><strong>Name:</strong> ' . $fName . ' ' . $lName . '</h2>';
                 
                 if ($gLeader) {
                     echo '<p>Group Leader</p>';
@@ -62,9 +64,11 @@
                 else {
                     echo '<p><strong>Relationship Status:</strong> Taken :)</p>';
                 }
+                echo "</div>";
             }
 
         ?>
+        </div>
     </main>
     <footer>
         <p>&copy Derek Leavitt 2019</p>
