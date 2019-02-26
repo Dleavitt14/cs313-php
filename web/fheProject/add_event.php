@@ -20,6 +20,7 @@
     <main>
         <div class="addNew">
             <div class="add1">
+                <h2>Enter Event Information</h2>
                 <form action="dbAdd.php" method="POST">
                     FHE Group Name:
                     <select name="gId">
@@ -32,7 +33,7 @@
                     </select><br><br>
                     Activity Name:
                     <input type="text" name="aName"><br><br>
-                    Activity Description:<br>
+                    Activity Description:<br><br>
                     <textarea type="text" name="aDescription"></textarea><br><br>
                     Prayer:
                     <input type="text" name="prayer"><br><br>
@@ -40,7 +41,7 @@
                     <input type="text" name="thought"><br><br>
                     Treat:
                     <input type="text" name="treat"><br><br>
-                    <input type="submit" value="Add Event">
+                    <input class="button" type="submit" value="Add Event">
                 </form>
             </div>
             <div class="add1">
