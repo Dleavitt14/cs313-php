@@ -25,11 +25,11 @@
                         echo '<option value=' . $group['id'] . ">" . $group['group_name'] . "</option>";
                     }
                 ?>
-            </select>
+            </select><br>
             Activity Name:
             <input type="text" name="aName"><br>
             Activity Description:
-            <input type="text" name="aDescription"><br>
+            <textarea type="text" name="aDescription"></textarea><br>
             Prayer:
             <input type="text" name="prayer"><br>
             Thought:
