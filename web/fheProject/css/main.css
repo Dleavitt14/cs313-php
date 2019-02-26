@@ -10,7 +10,9 @@ header {
 
 .group {
   width: 45%;
-  border: 2px solid grey; }
+  border: 2px solid grey;
+  margin: 3.3%;
+  padding: 2em; }
 
 .allGroups {
   display: flex;
