@@ -37,5 +37,7 @@ footer {
 .add, .user div {
   padding: 2em;
   width: 45%; }
+  .add input, .add h2, .user div input, .user div h2 {
+    padding-bottom: 1em; }
 
 /*# sourceMappingURL=main.css.map */
