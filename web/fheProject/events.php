@@ -23,12 +23,10 @@
 </head>
 <body>
     <header>
-        <img src="images/header.jpg" alt="skyline">
-    </header>
-    <main>
         <h1>Events For Group</h1>
         <p class="homeLink"><a href="groups.php">Home</a></p>
-
+    </header>
+    <main>
         <?php
 
             foreach($rows as $event) {

@@ -14,7 +14,8 @@
 </head>
 <body>
     <header>
-        <img src="images/header.jpg" alt="skyline">
+        <h1>Add a New Event</h1>
+        <p class="homeLink"><a href="groups.php">Home</a></p>
     </header>
     <main>
         <h1>Add a New Event</h1>
