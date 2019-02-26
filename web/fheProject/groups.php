@@ -20,7 +20,7 @@
         <p class="add"><a href="add_event.php">Add New Event</a></p>
     </header>
     <main>
-        
+        <div class="allGroups">
         <?php
 
             foreach($db->query('SELECT id, group_name, ward, stake FROM groups') as $row) {
@@ -29,7 +29,8 @@
                 $stake = $row["stake"];
                 $id = $row["id"];
 
-                echo '<h2>' . $name . '</h2>' . 
+                echo    '<div class="group">'.
+                        '<h2>' . $name . '</h2>' . 
                         '<p>' . $ward . ' Ward</p>' . 
                         '<p>' . $stake . ' Stake</p>' . 
                         '<form action="users.php" method="GET">' . 
@@ -39,10 +40,12 @@
                         '<form action="events.php" method="GET">' . 
                         '<input type="text" name="group_number" value="' . $id . '" hidden>' . 
                         '<input type="submit" value="See Events">' . 
-                        '</form>';
+                        '</form>'.
+                        '</div>';
             }
 
         ?>
+        </div>
     </main>
     <footer>
     </footer>  

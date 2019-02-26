@@ -5,6 +5,15 @@ body {
 header {
   background-image: url("../images/header.jpg");
   height: 20em;
-  color: white; }
+  color: white;
+  text-align: center; }
+
+.group {
+  width: 45%;
+  border: 2px solid grey; }
+
+.allGroups {
+  display: flex;
+  flex-flow: row wrap; }
 
 /*# sourceMappingURL=main.css.map */
