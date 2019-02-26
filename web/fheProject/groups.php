@@ -35,11 +35,11 @@
                         '<p>' . $stake . ' Stake</p>' . 
                         '<form action="users.php" method="GET">' . 
                         '<input type="text" name="group_number" value="' . $id . '" hidden>' . 
-                        '<input type="submit" value="See Users">' . 
+                        '<input class="button" type="submit" value="See Users">' . 
                         '</form>' . 
                         '<form action="events.php" method="GET">' . 
                         '<input type="text" name="group_number" value="' . $id . '" hidden>' . 
-                        '<input type="submit" value="See Events">' . 
+                        '<input class="button" type="submit" value="See Events">' . 
                         '</form>'.
                         '</div>';
             }
