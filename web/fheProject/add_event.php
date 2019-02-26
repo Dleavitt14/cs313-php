@@ -18,7 +18,6 @@
         <p class="homeLink"><a href="groups.php">Home</a></p>
     </header>
     <main>
-        <h1>Add a New Event</h1>
         <form action="dbAdd.php" method="POST">
             FHE Group Name:
             <select name="gId">
@@ -43,6 +42,7 @@
         </form>
     </main>
     <footer>
+        <p>&copy Derek Leavitt 2019</p>
     </footer>
 </body>
 </html>

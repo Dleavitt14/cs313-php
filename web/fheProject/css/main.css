@@ -29,4 +29,12 @@ footer {
     color: white;
     padding: 3em; }
 
+.user {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between; }
+
+.add, .user div {
+  padding: 2em; }
+
 /*# sourceMappingURL=main.css.map */

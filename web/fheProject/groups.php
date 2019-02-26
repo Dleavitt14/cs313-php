@@ -16,8 +16,8 @@
 <body>
     <header>
         <h1>FHE Groups</h1>
-        <p class="add"><a href="add_user.php">Add New User</a></p>
-        <p class="add"><a href="add_event.php">Add New Event</a></p>
+        <p class="addLink"><a href="add_user.php">Add New User</a></p>
+        <p class="addLink"><a href="add_event.php">Add New Event</a></p>
     </header>
     <main>
         <div class="allGroups">
@@ -48,6 +48,7 @@
         </div>
     </main>
     <footer>
+        <p>&copy Derek Leavitt 2019</p>
     </footer>  
 </body>
 </html>

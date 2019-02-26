@@ -17,46 +17,54 @@
         <h1>Add a New User</h1>
         <p class="homeLink"><a href="groups.php">Home</a></p>
     </header>
-    <main>
-        
-        <form action="dbAdd.php" method="POST">
-            First Name:
-            <input type="text" name="fName"><br>
-            Last Name:
-            <input type="text" name="lName"><br>
-            FHE Group Name:
-            <select name="gId">
-                <?php
-                    foreach ($groups as $group) { 
-                        
-                        echo '<option value=' . $group['id'] . ">" . $group['group_name'] . "</option>";
-                    }
-                ?>
-            </select>
-            Birthday:
-            <input type="text" name="birthday"><br>
-            Favorite Color:
-            <input type="text" name="color"><br>
-            Hometown:
-            <input type="text" name="hometown"><br>
-            Group Leader:
-            <input type="radio" name="gLeader" value="True">True<br>
-            <input type="radio" name="gLeader" value="False">False<br>
-            Favorite Hobby:
-            <input type="text" name="hobby"><br>
-            Relationship Status:
-            <input type="radio" name="single" value="True">Single<br>
-            <input type="radio" name="single" value="False">Other<br>
-            Major:
-            <input type="text" name="major"><br>
-            Semester in School:
-            <input type="number" name="semester" min="1" max="10"><br>
-            Photo:
-            <input type="text" name="photo"><br>
-            <input type="submit" value="Add User">
-        </form>
+    <main>  
+        <div class="user">
+        <div class="add">
+            <h2>Fill out User Information</h2>
+            <form action="dbAdd.php" method="POST">
+                First Name:
+                <input type="text" name="fName"><br>
+                Last Name:
+                <input type="text" name="lName"><br>
+                FHE Group Name:
+                <select name="gId">
+                    <?php
+                        foreach ($groups as $group) { 
+                            
+                            echo '<option value=' . $group['id'] . ">" . $group['group_name'] . "</option>";
+                        }
+                    ?>
+                </select><br>
+                Birthday:
+                <input type="text" name="birthday"><br>
+                Favorite Color:
+                <input type="text" name="color"><br>
+                Hometown:
+                <input type="text" name="hometown"><br>
+                Group Leader:
+                <input type="radio" name="gLeader" value="True">True<br>
+                <input type="radio" name="gLeader" value="False">False<br>
+                Favorite Hobby:
+                <input type="text" name="hobby"><br>
+                Relationship Status:
+                <input type="radio" name="single" value="True">Single<br>
+                <input type="radio" name="single" value="False">Other<br>
+                Major:
+                <input type="text" name="major"><br>
+                Semester in School:
+                <input type="number" name="semester" min="1" max="10"><br>
+                Photo:
+                <input type="text" name="photo"><br>
+                <input class="button" type="submit" value="Add User">
+            </form>
+        </div>
+        <div>
+            <img src="images/user.png" alt="userIcon">
+        </div>
+        </div>
     </main>
     <footer>
+        <p>&copy Derek Leavitt 2019</p>
     </footer>
 </body>
 </html>
