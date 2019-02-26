@@ -41,7 +41,7 @@
         $treat = $_POST['treat'];
         $gId = $_POST['gId'];
 
-        $stmt = $db->prepare('INSERT INTO users VALUES (default, :group_id, :prayer, :thought, :treat, :activity_name, :activity_description;');
+        $stmt = $db->prepare('INSERT INTO users VALUES (default, :group_id, :prayer, :thought, :treat, :activity_name, :activity_description);');
         $stmt->bindValue(':group_id', $gId, PDO::PARAM_INT);
         $stmt->bindValue(':prayer', $prayer, PDO::PARAM_STR);
         $stmt->bindValue(':thought', $thought, PDO::PARAM_STR);
