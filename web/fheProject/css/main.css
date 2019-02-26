@@ -35,6 +35,7 @@ footer {
   justify-content: space-between; }
 
 .add, .user div {
-  padding: 2em; }
+  padding: 2em;
+  width: 45%; }
 
 /*# sourceMappingURL=main.css.map */
