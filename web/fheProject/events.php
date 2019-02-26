@@ -25,6 +25,7 @@
     </header>
     <main>
         <h1>Events For Group</h1>
+        <p class="homeLink">Home</p>
 
         <?php
 
