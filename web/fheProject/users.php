@@ -67,6 +67,7 @@
         ?>
     </main>
     <footer>
+        <p>&copy Derek Leavitt 2019</p>
     </footer>  
     
 </body>

@@ -22,4 +22,11 @@ header {
   background-color: black;
   color: white; }
 
+footer {
+  background-color: grey;
+  height: 15em; }
+  footer p {
+    text-align: center;
+    color: white; }
+
 /*# sourceMappingURL=main.css.map */
