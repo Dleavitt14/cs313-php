@@ -23,6 +23,7 @@
 </head>
 <body>
     <header>
+        <img src="images/header.jpg" alt="skyline">
     </header>
     <main>
         <h1>Users For Group </h1>

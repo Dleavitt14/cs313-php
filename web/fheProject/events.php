@@ -23,7 +23,7 @@
 </head>
 <body>
     <header>
-        <img src="header.jpg" alt="skyline">
+        <img src="images/header.jpg" alt="skyline">
     </header>
     <main>
         <h1>Events For Group</h1>
