@@ -15,12 +15,12 @@
 </head>
 <body>
     <header>
-        <img src="images/header.jpg" alt="skyline">
-    </header>
-    <main>
         <h1>FHE Groups</h1>
         <p class="add"><a href="add_user.php">Add New User</a></p>
         <p class="add"><a href="add_event.php">Add New Event</a></p>
+    </header>
+    <main>
+        
         <?php
 
             foreach($db->query('SELECT id, group_name, ward, stake FROM groups') as $row) {

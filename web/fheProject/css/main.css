@@ -3,6 +3,7 @@ body {
   margin: auto; }
 
 header {
-  background-image: url(images/header.jpg); }
+  background-image: url(images/header.jpg);
+  height: 20em; }
 
 /*# sourceMappingURL=main.css.map */
