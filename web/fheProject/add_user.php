@@ -23,9 +23,9 @@
             <h2>Fill out User Information</h2>
             <form action="dbAdd.php" method="POST">
                 First Name:
-                <input type="text" name="fName"><br>
+                <input type="text" name="fName"><br><br>
                 Last Name:
-                <input type="text" name="lName"><br>
+                <input type="text" name="lName"><br><br>
                 FHE Group Name:
                 <select name="gId">
                     <?php
@@ -34,27 +34,27 @@
                             echo '<option value=' . $group['id'] . ">" . $group['group_name'] . "</option>";
                         }
                     ?>
-                </select><br>
+                </select><br><br>
                 Birthday:
-                <input type="text" name="birthday"><br>
+                <input type="text" name="birthday"><br><br>
                 Favorite Color:
-                <input type="text" name="color"><br>
+                <input type="text" name="color"><br><br>
                 Hometown:
-                <input type="text" name="hometown"><br>
+                <input type="text" name="hometown"><br><br>
                 Group Leader:
-                <input type="radio" name="gLeader" value="True">True<br>
-                <input type="radio" name="gLeader" value="False">False<br>
+                <input type="radio" name="gLeader" value="True">True 
+                <input type="radio" name="gLeader" value="False">False<br><br>
                 Favorite Hobby:
-                <input type="text" name="hobby"><br>
+                <input type="text" name="hobby"><br><br>
                 Relationship Status:
-                <input type="radio" name="single" value="True">Single<br>
-                <input type="radio" name="single" value="False">Other<br>
+                <input type="radio" name="single" value="True">Single 
+                <input type="radio" name="single" value="False">Other<br><br>
                 Major:
-                <input type="text" name="major"><br>
+                <input type="text" name="major"><br><br>
                 Semester in School:
-                <input type="number" name="semester" min="1" max="10"><br>
+                <input type="number" name="semester" min="1" max="10"><br><br>
                 Photo:
-                <input type="text" name="photo"><br>
+                <input type="text" name="photo"><br><br>
                 <input class="button" type="submit" value="Add User">
             </form>
         </div>
