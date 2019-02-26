@@ -1,4 +1,10 @@
-* {
-  background-color: palevioletred; }
+body {
+  max-width: 90%; }
+
+header {
+  height: 30em; }
+
+img {
+  width: 100%; }
 
 /*# sourceMappingURL=main.css.map */
